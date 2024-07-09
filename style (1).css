@@ -106,6 +106,7 @@ body{
         display: block;
         height: 180px;
         width:100%;
+        margin-bottom: 0px;
     }
 
 /* .box {
@@ -121,8 +122,7 @@ body{
 
 
 
-
-@media all and (max-width:640px)
+   @media all and (min-width:768px)
 {
     nav{
         flex-direction: column;
@@ -173,20 +173,23 @@ body{
     } 
     .feedback li{
         width:250px;
+        display: block;
         height:200px;
         margin-left: 100px;
        
     
     }
+    
 
     .ambianz{
         height: 200px;
         width:250px;
-        display: flex;;
+        display: flex;
         position:static;
         margin-left: 150px;
     }
     .status li{
+        display: block;
         width:250px;
         height:200px;
         margin-left: 100px;
@@ -198,7 +201,7 @@ body{
     .status img,
     .ambianz img {
         width: 100%; 
-        height: auto; 
+        height:230px; 
         align-self: flex-start;
         display: flex;
         flex-direction: column;
@@ -206,22 +209,27 @@ body{
 
     } 
     .open img{
+        margin-bottom: 1000px;
         height: 80px;
         width: 80px;
 
     }
     .homelogo img{
+        margin-bottom: 1000px;
         height: 60px;
         width: 60px;
 
     }
-    
-
-}
-
-/* .footer {
+    .contact{
+        margin-bottom: 0px;
+    }
+    .footer {
     text-align: center;
     align-items: center;
     align-content: center;
 
-} */
+}
+
+
+}
+
